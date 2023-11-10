@@ -35,3 +35,7 @@ section form div{
     display: flex;
     flex-direction: column;
 }
+
+section form div p{
+    margin:0px;
+}

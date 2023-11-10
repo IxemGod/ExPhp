@@ -71,7 +71,7 @@
             <div>
                 <?php
             
-            echo $msg."<br>";
+            echo $msg;
             ?>
 			<button name="submit">Envoyer</button>
 
