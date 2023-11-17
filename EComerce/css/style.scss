@@ -1,0 +1,90 @@
+
+body{
+
+    section{
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-self: center;
+        width:70%;
+        margin: 0 auto;
+        h2{
+            color: #032E4E;
+            margin:20px;
+        }
+
+        .marque{
+            border-top: 1px solid grey;
+            border-bottom: 1px solid grey;
+            margin:20px;
+            p{
+                font-size: 20px;
+                font-weight: bold;
+                margin:10px;
+            }
+        }
+
+        .list-item{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap:10px;
+            justify-content: space-around;
+
+            .produit{
+                display: flex;
+                flex-direction: column;
+                // justify-content: center;
+                width:300px;
+                border: 1px solid grey;
+
+                span{
+                    text-align: center;
+                    color: grey;
+                    font-size: 16px;
+                    margin: 5px;
+                }
+                img{
+                    width:250px;
+                    margin: 0px auto;
+                }
+
+                .prix{
+                    font-weight: bold;
+                    font-size: 25px;
+                    text-align: center;
+                }
+
+                .DP{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    gap:5px;
+
+                    .detail{
+                        background: lightgrey;
+                        color:black;
+                        border: 1px solid grey;
+                        padding: 5px;
+                        text-decoration: none;
+                    }
+                    
+                    .panier{
+                        background:#2AA1DB;
+                        border: 1px solid grey;
+                        color: white;
+                        padding: 5px;
+                        text-decoration: none;
+                    }
+                }
+
+                .stock{
+                    margin:20px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

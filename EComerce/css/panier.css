@@ -1,0 +1,48 @@
+body section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 100px auto;
+  margin-bottom: 25em;
+}
+@media (min-width: 607px) {
+  body section {
+    min-width: 607px;
+  }
+}
+@media (max-width: 630px) {
+  body section {
+    min-width: 250px;
+  }
+}
+body section h1 {
+  text-align: center;
+  color: #032e4e;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 30px;
+}
+body section .articles {
+  margin-top: 40px;
+}
+@media (min-width: 607px) {
+  body section .articles {
+    font-size: 30px;
+  }
+}
+@media (max-width: 630px) {
+  body section .articles {
+    font-size: 20px;
+  }
+}
+body section .articles table {
+  border: 2px solid black;
+  margin: 0px auto;
+  width: 70%;
+}
+body section .articles table .head {
+  background: lightgrey;
+}
+body section .articles table tr th img {
+  width: 100px;
+}/*# sourceMappingURL=panier.css.map */
