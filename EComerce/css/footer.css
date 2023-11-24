@@ -2,6 +2,10 @@ footer{
     background: #031E32;
     color:white;
     margin-top:50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 footer ul{
@@ -18,7 +22,17 @@ footer ul li{
     margin-top:10px;
 }
 
+footer ul li a{
+    text-decoration: none;
+    color:white;
+}
+
 footer p{
     text-align: center;
     margin-top:20px;
+}
+
+footer img{
+    width:200px;
+    margin:10px;
 }

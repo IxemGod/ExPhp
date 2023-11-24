@@ -1,24 +1,19 @@
-body{
-    section{
-
-        
+    .TablePanier{
         display: flex;
         flex-direction: column;
         width:100%;
         margin: 100px auto;
 
-        @media (min-width: 607px)
-        {
-            min-width: 607px;
-
-        }
+        // @media (min-width: 607px)
+        // {
+        //     min-width: 607px;
+        // }
         
         @media (max-width: 630px)
         {
             min-width: 250px;
         }
-        
-        margin-bottom:25em;
+    
 
 
         h1{
@@ -60,4 +55,3 @@ body{
             }
         }
     }
-}
