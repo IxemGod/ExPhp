@@ -1,0 +1,128 @@
+.Visualisation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:70%;
+    justify-content: center;
+    align-items: center;
+    margin:100px auto;
+
+
+    .img{
+        img{
+            margin-right:40px;
+        }
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        border-left: #ccc 1px solid;
+        h1{
+            color : #032e4e;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 30px;
+            margin-left:40px;
+        }
+        
+        .ref{
+            margin: 10px 0 20px;
+            color: #747474;
+            font-size: 12px;
+            font-weight: 300;
+            margin-left:41px;
+        }
+        
+        .stock{
+            font-size:12px;
+            padding:10px;
+            font-weight: 700;
+            margin-left:40px;
+            
+            i{
+                margin-right: 10px;
+            }
+        }
+        
+        .description{
+            margin-top:30px;
+            margin-left:40px;
+            
+            p{
+                font-family: Verdana,Arial,Helvetica,sans-serif;
+                font-size: 10px;
+                line-height: 20px;
+                margin-left:10px;
+            }
+        }
+        
+        .prix{
+            font-weight: 700;
+            line-height: 45px;
+            color: #032e4e;
+            font-size: 40px;
+            margin-left:50px;
+        }
+
+        img{
+            margin-left:40px;
+        }
+        .groupe{
+            margin-left:50px;
+            display: flex;
+            flex-direction: row;
+            
+            .quantité{
+                margin-top:20px;
+                display: flex;
+                flex-direction: row;
+                background: transparent;
+                border:0.5px solid grey;
+                
+                
+                button{
+                    height: 53px;
+                    width:53px;
+                    font-size: 20px;
+                    
+                }
+                
+                .minus{
+                    border:0px;
+                }
+                
+                .more{
+                    border: 0px;
+                }
+                
+                input{
+                    
+                    border:0px;
+                    height: 48px;
+                    width: 50px;
+                    font-size: 20px;
+                    text-align: center;
+                }
+            }
+            
+            .addPan{
+                text-transform: uppercase;
+                height: 55px;
+                margin-top: 20px;
+                margin-left:10px;
+                border-radius: 3px;
+                background-color: #2aa1db;
+                min-height: 50px;
+                color: white;
+                font-weight: bold;
+                font-size: large;
+                width:500px;
+                border:0px;
+                
+                
+                
+            }
+        }
+    }
+}
